@@ -64,15 +64,8 @@ def evclid_dist():
           f"расстояние в 2D -> {distance}")
 
 def one_more():
-    answer=input("проверяем дальше? yes-not : yure answer ->")
-    if "y" or "Y" in answer:
-          main()
-    elif "n" or "N" in answer:
-
-        exit()
-    else:
-        print("некорректный ввод")
-        one_more()
+    answer=input("нажмите любую клавишу для продолжения")
+    main()
 
 
 def main():
